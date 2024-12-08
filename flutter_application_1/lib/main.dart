@@ -11,14 +11,8 @@ class MyApp extends StatelessWidget {
       title: 'I am rich',
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
-            'I am Rich',
-            style: TextStyle(
-              fontSize: 50,
-              fontWeight: FontWeight.bold,
-              color: Colors.blue, // Thay đổi màu sắc của tiêu đề
-            ),
-          ),
+          title: const Text(
+            'I am Rich',style: TextStyle(fontSize: 50,fontWeight: FontWeight.bold,color: Colors.blue, ),),
           centerTitle: true,
         ),
         body: Center(
